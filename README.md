@@ -76,8 +76,9 @@ Pastikan **Node.js** telah terinstal di komputer Anda.
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/misbachrye/predictive-lead-score.git
+```
 
-2. Jalankan Mock Server (Terminal 1)
+### 2. Jalankan Mock Server (Terminal 1)
 Server ini berjalan di port 5000 dan menangani data JSON serta login.
 
 ```bash
@@ -86,8 +87,9 @@ cd mock-server
 npm install
 npm start
 Output: "JSON Server with custom login is running on port 5000".
+```
 
-3. Jalankan Aplikasi React (Terminal 2)
+### 3. Jalankan Aplikasi React (Terminal 2)
 Aplikasi Front-End akan berjalan (biasanya di port 5173).
 
 ```bash
@@ -95,7 +97,9 @@ Aplikasi Front-End akan berjalan (biasanya di port 5173).
 cd predictive-lead-score
 npm install
 npm run dev
-4. Akses Aplikasi
+```
+
+### 4. Akses Aplikasi
 Buka browser dan akses URL yang muncul di terminal (biasanya http://localhost:5173).
 
 Gunakan kredensial berikut untuk login:
