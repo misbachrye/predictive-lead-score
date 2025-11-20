@@ -104,8 +104,10 @@ Buka browser dan akses URL yang muncul di terminal (biasanya http://localhost:51
 
 Gunakan kredensial berikut untuk login:
 
+``` bash
 Username: sales_user_01
 
 Password: password123
+```
 
 (Kredensial ini dikonfigurasi dalam mock-server/server.js).
